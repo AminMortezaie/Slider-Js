@@ -4,10 +4,10 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="slider.css">
-
+    <script src="slider.js" async></script>
 </head>
 <body>
-<script src="slider.js" async></script>
+
 <div class="slideshow-container">
     <div class="mySlides fade">
         <div class="numbertext">1 / 3</div>
@@ -27,17 +27,13 @@
         <div class="text">Caption Three</div>
     </div>
 
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    <a class="prev">&#10094;</a>
+    <a class="next">&#10095;</a>
 
 </div>
 <br>
 
-<div style="text-align:center">
-    <span class="dot" onclick="currentSlide(1)"></span>
-    <span class="dot" onclick="currentSlide(2)"></span>
-    <span class="dot" onclick="currentSlide(3)"></span>
-</div>
+<div class="mySpan"></div>
 
 
 </body>

@@ -10,6 +10,9 @@ body {
 .mySlides {
     display: none
 }
+.mySpan{
+    text-align:center;
+}
 
 img {
     vertical-align: middle;
